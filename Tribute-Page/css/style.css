@@ -1,0 +1,19 @@
+#title {
+  text-align: center;
+}
+
+#img-div {
+  width: 80%;
+  margin: 50px auto;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+}
+
+#img-caption {
+  text-align: center;
+  margin-top: 10px;
+}
+
