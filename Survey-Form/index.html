@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">Form</h1>
+    <p id="description">About this form: It is a form!</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Put a name" required><br>
+
+      <label id="email-label">Email</label>
+      <input type="email" id="email" placeholder="put@valid.email" required><br>
+
+      <label id="number-label">Enter a number</label>
+      <input type="number" id="number" placeholder="100" min=0 max=100><br>
+
+      <label id="dropdown-label">Select a color</label>
+      <select id="dropdown">
+        <option value="blue">Blue</option>
+        <option value="red">Red</option>
+        <option yellow="blue">Yellow</option>
+      </select><br>
+
+      <input type="radio" id="gold" name="radio-button" value="Gold">
+      <label for="gold">Gold</label><br>
+      <input type="radio" id="silver" name="radio-button" value="Silver">
+      <label for="silver">Silver</label><br>
+      <input type="radio" id="platinum" name="radio-button" value="Platinum">
+      <label for="platinum">Platinum</label><br>
+
+      <input type="checkbox" id="ruby" name="checkbox" value="Ruby">
+      <label for="ruby">Ruby</label><br>
+      <input type="checkbox" id="saphire" name="checkbox" value="Saphire">
+      <label for="saphire">Saphire</label><br>
+      <input type="checkbox" id="emerald" name="checkbox" value="Emerald">
+      <label for="emerald">Emerald</label><br>
+
+      <label>Something else?</label>
+      <textarea rows=4 cols=50></textarea><br>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
